@@ -1,0 +1,41 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.contact-inf {
+    color: #333;
+    line-height: 1.5;
+}
+
+.contact-info::before {
+    content: "/"; /* Vertical line separator */
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F58220; /* Updated color */
+}

@@ -18,8 +18,9 @@ body {
 
 .container {
     text-align: center;
-    width: 700px;
+    width: 600px;
     margin: 0 auto; /* Center horizontally */
+    margin-top: -100px;
 }
 
 img {
